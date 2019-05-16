@@ -45,6 +45,12 @@ var PROXY_METHOD = PROXY_TYPE + ' ' + IP_ADDRESS;
 
     // Feel free to add or edit custom list
 var RULES = [
+    // don't open
+    [
+        ".sehuatang.net",
+        ".werewrewr.com"
+    ],
+    
     //cn
     [
         ".cn"
