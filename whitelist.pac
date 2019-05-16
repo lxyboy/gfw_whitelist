@@ -17,7 +17,7 @@
      *                                                 *
      * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-var IP_ADDRESS = 'www.abc.com:443'; // Need to change to a real address!!
+var IP_ADDRESS = '127.0.0.1:6601'; // Need to change to a real address!!
 
     /* * * * * * * * * * * * * * * * * * * * * * * * * * 
      *                                                 *
@@ -25,7 +25,7 @@ var IP_ADDRESS = 'www.abc.com:443'; // Need to change to a real address!!
      * Proxy type                                      *
      *                                                 *
      * * * * * * * * * * * * * * * * * * * * * * * * * */
-var PROXY_TYPE = 'HTTPS'; // or 'SOCKS5' or 'PROXY'
+var PROXY_TYPE = 'SOCKS5'; // or 'SOCKS5' or 'PROXY'
 
     // HTTPS 是用于 Chrome 的安全代理
     // http://www.chromium.org/developers/design-documents/secure-web-proxy
@@ -66,7 +66,16 @@ var RULES = [
         ".guokr.com",
         ".speedtest.net",
         ".huazhu.com",
-        ".saraba1st.com"
+        ".saraba1st.com",
+        ".faceplusplus.com",
+        ".huya.com",
+        ".msstatic.com",
+        ".hiido.com",
+        ".douyu.com",
+        ".is-programmer.com",
+        ".iqiyi.com",
+        ".iqiyipic.com"
+
     ],
     //"ihipop"
     [
@@ -353,11 +362,14 @@ var RULES = [
         ".zhi.hu",
         ".zhibo8.com",
         ".zhongsou.net",
-        ".zx915.com"
+        ".zx915.com",
+        ".joyslink.com",
+        ".wstx.com"
     ],
     //alexa cn 500
     [
         ".baidu.com",
+        ".baidupcs.com",
         ".qq.com",
         ".taobao.com",
         ".163.com",
@@ -366,6 +378,8 @@ var RULES = [
         ".youku.com",
         ".soso.com",
         ".ifeng.com",
+        ".feng.com",
+        ".weiphone.net",
         ".tmall.com",
         ".hao123.com",
         ".tudou.com",
@@ -733,7 +747,11 @@ var RULES = [
         ".mumayi.com",
         ".sttlbb.com",
         ".mangocity.com",
-        ".fantong.com"
+        ".fantong.com",
+        ".mozilla.net",
+        ".pangu.io",
+        ".djangoproject.com",
+        ".bootstrapcdn.com"
     ]
 ];
 
