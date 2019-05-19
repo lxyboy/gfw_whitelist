@@ -48,7 +48,12 @@ var RULES = [
     // don't open
     [
         ".sehuatang.net",
-        ".werewrewr.com"
+        ".werewrewr.com",
+        ".imageshimage.com",
+        "upload.cc",
+        "upic.me",
+        ".snapgram.com",
+        ".nvshenim.info"
     ],
     
     //cn
@@ -80,7 +85,11 @@ var RULES = [
         ".douyu.com",
         ".is-programmer.com",
         ".iqiyi.com",
-        ".iqiyipic.com"
+        ".iqiyipic.com",
+        ".live.com",
+        ".qt.io",
+        ".constant.com"
+        
 
     ],
     //"ihipop"
